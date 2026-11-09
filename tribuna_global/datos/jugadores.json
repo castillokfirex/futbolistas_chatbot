@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "jugadores": [
+    {"id": "j001", "nombre": "Lionel Messi", "pais": "Argentina"},
+    {"id": "j002", "nombre": "Cristiano Ronaldo", "pais": "Portugal"},
+    {"id": "j003", "nombre": "Neymar", "pais": "Brasil"},
+    {"id": "j004", "nombre": "Kylian Mbappé", "pais": "Francia"},
+    {"id": "j005", "nombre": "Erling Haaland", "pais": "Noruega"},
+    {"id": "j006", "nombre": "Vinícius Júnior", "pais": "Brasil"},
+    {"id": "j007", "nombre": "Mohamed Salah", "pais": "Egipto"},
+    {"id": "j008", "nombre": "Robert Lewandowski", "pais": "Polonia"},
+    {"id": "j009", "nombre": "Luka Modrić", "pais": "Croacia"},
+    {"id": "j010", "nombre": "Kevin De Bruyne", "pais": "Bélgica"},
+    {"id": "j011", "nombre": "Luis Suárez", "pais": "Uruguay"},
+    {"id": "j012", "nombre": "James Rodríguez", "pais": "Colombia"},
+    {"id": "j013", "nombre": "Luis Díaz", "pais": "Colombia"},
+    {"id": "j014", "nombre": "Son Heung-min", "pais": "Corea del Sur"},
+    {"id": "j015", "nombre": "Sadio Mané", "pais": "Senegal"},
+    {"id": "j016", "nombre": "Pelé", "pais": "Brasil"},
+    {"id": "j017", "nombre": "Diego Maradona", "pais": "Argentina"},
+    {"id": "j018", "nombre": "Zinedine Zidane", "pais": "Francia"},
+    {"id": "j019", "nombre": "Ronaldinho", "pais": "Brasil"},
+    {"id": "j020", "nombre": "Ronaldo Nazário", "pais": "Brasil"}
+  ]
+}

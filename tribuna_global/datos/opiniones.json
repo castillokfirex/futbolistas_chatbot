@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "opiniones": [
+    {
+      "id": "11111111-1111-4111-8111-111111111101",
+      "fecha_utc": "2026-11-01T10:00:00+00:00",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_original": "Su visión de juego y su capacidad para filtrar pases entre líneas son extraordinarias.",
+      "sentimiento": "positivo",
+      "razon": "La opinión destaca con admiración la visión de juego y la precisión en los pases del futbolista.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111102",
+      "fecha_utc": "2026-11-01T11:30:00+00:00",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_original": "En las eliminatorias directas recientes caminó demasiado en la cancha y no presionó nada.",
+      "sentimiento": "negativo",
+      "razon": "El comentario critica la falta de recorrido y de presión defensiva en partidos clave.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    },
+    {
+      "id": "11111111-1111-4111-8111-111111111103",
+      "fecha_utc": "2026-11-01T13:15:00+00:00",
+      "jugador_id": "j001",
+      "jugador_nombre": "Lionel Messi",
+      "opinion_original": "Tiene un control de balón brillante, aunque ya no tiene el ritmo físico para sostener noventa minutos intensos.",
+      "sentimiento": "mixto",
+      "razon": "El texto combina un elogio a su técnica individual con un señalamiento negativo sobre su desgaste físico actual.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    },
+    {
+      "id": "22222222-2222-4222-8222-222222222201",
+      "fecha_utc": "2026-11-02T09:20:00+00:00",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_original": "Su mentalidad competitiva, remate de cabeza y capacidad goleadora en partidos decisivos son admirables.",
+      "sentimiento": "positivo",
+      "razon": "El aficionado elogia la fortaleza mental, el juego aéreo y la eficacia goleadora del delantero.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    },
+    {
+      "id": "22222222-2222-4222-8222-222222222202",
+      "fecha_utc": "2026-11-02T14:45:00+00:00",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_original": "Es un delantero portugués que inició su carrera profesional en el Sporting de Lisboa y juega con el dorsal siete.",
+      "sentimiento": "neutro",
+      "razon": "El mensaje presenta datos biográficos y descriptivos sin emitir juicios de valor.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    },
+    {
+      "id": "22222222-2222-4222-8222-222222222203",
+      "fecha_utc": "2026-11-02T17:10:00+00:00",
+      "jugador_id": "j002",
+      "jugador_nombre": "Cristiano Ronaldo",
+      "opinion_original": "Sus cifras goleadoras son impresionantes, pero en ocasiones sus gestos hacia los compañeros resultan innecesarios.",
+      "sentimiento": "mixto",
+      "razon": "Se reconoce positivamente su registro goleador al mismo tiempo que se desaprueban ciertos gestos en el campo.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    },
+    {
+      "id": "33333333-3333-4333-8333-333333333301",
+      "fecha_utc": "2026-11-03T12:00:00+00:00",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_original": "Su desequilibrio por la banda izquierda y su entrega constante contagian a todo el equipo.",
+      "sentimiento": "positivo",
+      "razon": "La opinión valora de manera entusiasta el regate y el compromiso colectivo del extremo.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    },
+    {
+      "id": "33333333-3333-4333-8333-333333333302",
+      "fecha_utc": "2026-11-03T15:30:00+00:00",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_original": "Desperdició varias ocasiones claras frente al arco y tomó malas decisiones en el último pase.",
+      "sentimiento": "negativo",
+      "razon": "El comentario señala deficiencias en la definición y en la toma de decisiones ofensivas.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    },
+    {
+      "id": "33333333-3333-4333-8333-333333333303",
+      "fecha_utc": "2026-11-03T18:05:00+00:00",
+      "jugador_id": "j013",
+      "jugador_nombre": "Luis Díaz",
+      "opinion_original": "Juega habitualmente como extremo izquierdo y forma parte de la selección nacional de Colombia.",
+      "sentimiento": "neutro",
+      "razon": "El texto describe la posición en el campo y la selección del jugador sin expresar elogios ni críticas.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    },
+    {
+      "id": "44444444-4444-4444-8444-444444444401",
+      "fecha_utc": "2026-11-04T10:25:00+00:00",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_original": "Su falta de continuidad en los clubes y las constantes lesiones han afectado seriamente su regularidad.",
+      "sentimiento": "negativo",
+      "razon": "La opinión expresa descontento por la irregularidad y la poca continuidad del mediocampista a nivel de clubes.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    },
+    {
+      "id": "44444444-4444-4444-8444-444444444402",
+      "fecha_utc": "2026-11-04T13:50:00+00:00",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_original": "Es un mediocampista ofensivo zurdo que utiliza el dorsal diez con la selección colombiana.",
+      "sentimiento": "neutro",
+      "razon": "Se trata de una descripción objetiva sobre el perfil y el dorsal del futbolista.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    },
+    {
+      "id": "44444444-4444-4444-8444-444444444403",
+      "fecha_utc": "2026-11-04T16:40:00+00:00",
+      "jugador_id": "j012",
+      "jugador_nombre": "James Rodríguez",
+      "opinion_original": "Su pegada de media distancia y sus centros son de élite, pero le cuesta sostener la intensidad defensiva.",
+      "sentimiento": "mixto",
+      "razon": "El aficionado destaca su calidad técnica en el golpeo de balón pero cuestiona su aporte defensivo.",
+      "modelo": "gemini-2.5-flash",
+      "version_prompt": "1.0"
+    }
+  ]
+}
