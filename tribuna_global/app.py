@@ -103,6 +103,14 @@ def procesar_envio_opinion(
                 "es_pertinente": False,
             }
         )
+        with st.chat_message("user"):
+            st.markdown(f"**[Jugador: {jugador_fijo['nombre']}]**\n\n{texto_limpio}")
+        with st.chat_message("assistant"):
+            st.markdown(
+                f"**Jugador seleccionado:** {jugador_fijo['nombre']}  \n"
+                f"**Resultado:** No pertinente (no guardado)  \n"
+                f"**Justificación:** {exc.razon}"
+            )
         st.warning(
             f"🚫 Opinión no pertinente para **{jugador_fijo['nombre']}**: {exc.razon} "
             "(No se guardó en el archivo)."
@@ -173,6 +181,15 @@ def procesar_envio_opinion(
     etiqueta = ETIQUETAS_SENTIMIENTO.get(
         analisis_resultado.sentimiento or "", analisis_resultado.sentimiento or ""
     )
+    with st.chat_message("user"):
+        st.markdown(f"**[Jugador: {jugador_fijo['nombre']}]**\n\n{texto_limpio}")
+    with st.chat_message("assistant"):
+        st.markdown(
+            f"**Jugador analizado:** {jugador_fijo['nombre']}  \n"
+            f"**Sentimiento estimado:** {etiqueta}  \n"
+            f"**Justificación:** {analisis_resultado.razon}"
+        )
+        st.caption("💾 Guardado en `datos/opiniones.json`.")
     if guardado_nuevo:
         st.success(
             f"✅ Opinión sobre **{jugador_fijo['nombre']}** clasificada como "

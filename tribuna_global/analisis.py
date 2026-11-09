@@ -28,7 +28,7 @@ from pydantic import BaseModel, Field
 load_dotenv()
 
 MODELO_POR_DEFECTO: str = "gemini-2.5-flash"
-MODELO_RESPALDO_GEMINI: str = "gemini-3.8-flash"
+MODELO_RESPALDO_GEMINI: str = "gemini-3.5-flash-lite"
 VERSION_PROMPT: str = "1.0"
 LONGITUD_MINIMA: int = 5
 LONGITUD_MAXIMA: int = 1000
@@ -174,7 +174,7 @@ prompt_debate: ChatPromptTemplate = ChatPromptTemplate.from_messages(
 
 def obtener_nombre_modelo(modelo: str | None = None) -> str:
     """Devuelve el nombre del modelo desde el argumento, ``GEMINI_MODEL`` o ``gemini-2.5-flash``."""
-    load_dotenv()
+    load_dotenv(override=True)
     candidato = (
         modelo
         or os.getenv("GEMINI_MODEL")
@@ -186,7 +186,7 @@ def obtener_nombre_modelo(modelo: str | None = None) -> str:
 
 def obtener_api_key() -> str:
     """Obtiene ``GOOGLE_API_KEY`` (o ``GEMINI_API_KEY``) del entorno y verifica que sea válida."""
-    load_dotenv()
+    load_dotenv(override=True)
     api_key = (
         os.getenv("GOOGLE_API_KEY")
         or os.getenv("GEMINI_API_KEY")

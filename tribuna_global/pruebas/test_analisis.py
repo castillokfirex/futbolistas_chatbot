@@ -237,6 +237,7 @@ def test_stream_debate_entrega_fragmentos_markdown_con_historial():
 
 def test_modelo_por_defecto_es_gemini_2_5_flash(monkeypatch: pytest.MonkeyPatch):
     """Verifica que el modelo base por defecto sea gemini-2.5-flash."""
+    monkeypatch.setattr(an, "load_dotenv", lambda **_kwargs: None)
     monkeypatch.delenv("GEMINI_MODEL", raising=False)
     monkeypatch.delenv("GOOGLE_MODEL", raising=False)
     assert an.MODELO_POR_DEFECTO == "gemini-2.5-flash"
